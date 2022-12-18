@@ -41,7 +41,7 @@ public class NewTest1 {
 	ChromeDriver  driver;
 	String urlBase;  
 	
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0010_Login_Success() {
 			  
 	          System.out.println( "This is the f0010_Login_Success.");
@@ -73,7 +73,7 @@ public class NewTest1 {
 		  
 		  }	
 		
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0020_Login_Failure() {
 			  
 	          
@@ -112,7 +112,7 @@ public class NewTest1 {
 
 		  }	
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0030_Checkboxes() {
 			  
 	          
@@ -159,7 +159,7 @@ public class NewTest1 {
 
 		  }	
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0040_Context_Menu() {
 			  
 	          
@@ -275,7 +275,7 @@ public class NewTest1 {
 	    }
 
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0060_Dropdown() {
 			  
 	          
@@ -309,7 +309,7 @@ public class NewTest1 {
 
 		  }	
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0070_Dynamic_Content() {
 			  
 	          
@@ -352,7 +352,7 @@ public class NewTest1 {
 			  System.out.println("Dynamic_Content Done " +"\r");
 
 		  }	
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0080_Dynamic_Controls_There_is_a_bug() {
 			  
 
@@ -415,7 +415,7 @@ public class NewTest1 {
 		    }
 		}
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0090_Dynamic_Loading() {
 			  
 		      System.out.println( "This is the f0090_Dynamic_Loading.");
@@ -444,7 +444,7 @@ public class NewTest1 {
 
 		  }
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0100_File_Download() {
 			  
 		      System.out.println( "This is the f0100_File_Download.");
@@ -479,7 +479,7 @@ public class NewTest1 {
 
 		  }
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0110_File_Upload() {
 			  
 		      System.out.println( "This is the f0110_File_Upload.");
@@ -510,7 +510,7 @@ public class NewTest1 {
 
 		  }   
 
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0120_Floating_Menu() {
 			  
 		      System.out.println( "This is the f0120_Floating_Menu.");
@@ -541,7 +541,7 @@ public class NewTest1 {
 		  }   
 	   
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0130_iFrame() {
 			  
 		      System.out.println( "This is the f0130_iFrame.");
@@ -576,7 +576,7 @@ public class NewTest1 {
 	   
 	   
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0140_Mouse_Hover() {
 			  
 		      System.out.println( "This is the f0140_Mouse_Hover.");
@@ -628,7 +628,7 @@ public class NewTest1 {
 	   
 	   
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0150_JavaScript_Alerts() {
 			  
 		      System.out.println( "This is the f0150_JavaScript_Alerts.");
@@ -687,7 +687,7 @@ public class NewTest1 {
 		  }   
 
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0160_JavaScript_Error() {
 			  
 		      System.out.println( "This is the f0160_JavaScript_Error.");
@@ -715,7 +715,7 @@ public class NewTest1 {
 		  } 
 	   
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0170_Open_in_New_Tab() {
 			  
 		      System.out.println( "This is the f0170_Open_in_New_Tab.");
@@ -759,7 +759,7 @@ public class NewTest1 {
 
 		  } 
 	   
-	   @Test(enabled =  false, invocationCount = 1 )
+	   @Test(enabled =  true, invocationCount = 1 )
 	   public void f0180_Notification_Message() {
 			  
 		      System.out.println( "This is the f0180_Notification_Message.");
